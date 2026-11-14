@@ -1,14 +1,15 @@
 import Image from "next/image";
 import NccSplash from "./NccSplash";
 const products = [
-  { name: "Ductable AC", desc: "Advanced commercial air conditioning systems", icon: "❄️" },
+  { name: "Split AC", desc: "Efficient cooling solutions", icon: "❄️" },
   { name: "Tower AC", desc: "Powerful cooling for large spaces", icon: "🏢" },
-  { name: "Split AC", desc: "Efficient cooling solutions", icon: "🌬️" },
+  { name: "Ductable AC", desc: "Advanced commercial air conditioning", icon: "🌬️" },
+  { name: "Cassette AC", desc: "Premium ceiling-mounted cooling", icon: "❄️" },
   { name: "Water Cooler", desc: "Reliable drinking water cooling", icon: "🚰" },
-  { name: "Water Chiller", desc: "Industrial water cooling solutions", icon: "💧" },
-  { name: "Deep Freezer", desc: "Reliable commercial refrigeration", icon: "🧊" },
-  { name: "Cold Room", desc: "Temperature-controlled storage solutions", icon: "❄️" },
-  { name: "Industrial AC", desc: "Heavy-duty industrial cooling", icon: "🏭" },
+  { name: "Industrial Geyser", desc: "Industrial hot water solutions", icon: "🔥" },
+  { name: "Deep Freezer", desc: "Commercial refrigeration solutions", icon: "🧊" },
+  { name: "Cold Storage", desc: "Temperature-controlled storage solutions", icon: "🏭" },
+  { name: "Outdoor Stand", desc: "Durable AC outdoor unit stands", icon: "🔩" },
 ];
 
 export default function Home() {
